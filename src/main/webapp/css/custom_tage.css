@@ -1,0 +1,162 @@
+/* ---------- Logo ---------- */
+.custom-logo img {
+	padding-right: 63px;
+	border-right: 1px solid #333;
+}
+/* ---------- Header ---------- */
+/* backgrou8nd-color #f5f3ee */ 
+
+/* ---------- Navigation ---------- */
+.aui #navigation .navbar-inner {
+    /*background: #006ebf; stockholm.se*/
+	background: #c40064;
+    border-width: 0;
+    min-height: 49px;
+}
+.aui #navigation .nav li {
+    line-height: 40px;
+}
+
+.aui #navigation .nav li.active>a {
+    /*background-color: #00518c; stockholm.se*/
+	background-color: #fedeed;
+	color: #c40064;
+    background-image:none;
+}
+
+.aui #navigation .nav li.hover>a {
+    /*background-color: #005fa6; stockholm.se*/
+	background-color: #fedeed;
+	color: #c40064;
+    background-image:none;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav>li>a {
+    line-height: 32px;
+}
+
+
+.stocket .medium-box {
+	padding: 10px;
+}
+
+.stocket .medium-box a{
+    text-decoration: none;
+}
+
+.stocket .large-box {
+	padding: 10px;
+}
+
+.stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+	background: #dd4a2c;
+	color: #ffffff;
+}
+
+.stocket .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+	background: #c40064;
+	color: #ffffff;
+}
+
+.stocket .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+	background: #ffd7d2;
+	color: #dd4a2c;
+}
+
+.stocket .light-pink-box, .light-pink-box a, .light-pink-box a:hover {
+	background: #fedeed;
+	color: #c40064;
+}
+
+
+@media (min-width: 2000px){
+	.stocket .medium-box {
+		height: 13.23vw;
+	}
+	.stocket .large-box {
+		height: 28.85vw;
+	}
+}
+@media (min-width: 1900px) and (max-width: 2000px){
+	.stocket .medium-box {
+		height: 13.1vw;
+	}
+	.stocket .large-box {
+		height: 28.8vw;
+	}
+}
+@media (min-width: 1800px) and (max-width: 1900px){
+	.stocket .medium-box {
+		height: 12.95vw;
+	}
+	.stocket .large-box {
+		height: 28.65vw;
+	}
+}
+
+@media (min-width: 1700px) and (max-width: 1800px){
+	.stocket .medium-box {
+		height: 12.80vw;
+	}
+	.stocket .large-box {
+		height: 28.50vw;
+	}
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+	.stocket .medium-box {
+		height: 12.65vw;
+	}
+	.stocket .large-box {
+		height: 28.35vw;
+	}
+}
+
+@media (min-width: 1500px) and (max-width: 1600px){
+	.stocket .medium-box {
+		height: 12.5vw;
+	}
+	.stocket .large-box {
+		height: 28.2vw;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 1500px){
+	.stocket .medium-box {
+		height: 12.35vw;
+	}
+	.stocket .large-box {
+		height: 28.05vw;
+	}
+}
+@media (min-width: 1300px) and (max-width: 1400px){
+	.stocket .medium-box {
+		height: 12.20vw;
+	}
+	.stocket .large-box {
+		height: 27.9vw;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+	.stocket .medium-box {
+		height: 11.80vw;
+	}
+	.stocket .large-box {
+		height: 27.5vw;
+	}
+}
+
+/*
+.nav-main li.sel a {
+	background:#00518c;
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-main li a.hover {
+	background:#044779;
+}
+
+#navigation .nav li.active>a {
+    background-color: #00518c;
+}
+*/
