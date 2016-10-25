@@ -35,14 +35,41 @@
     line-height: 32px;
 }
 
+.stocket {
+	max-width: 1280px;
+	margin: 0 auto; 
+}
+
+@media (min-width: 1280px){
+	.stocket {
+		/*margin-left: 100px;
+		margin-right: 100px;*/
+		margin-top: 10px;		
+	}
+	#heading {
+		max-width: 1280px;
+		margin: 0 auto; 
+		margin-top: 20px;			
+	}
+	.aui .navbar .nav {
+		margin-left: 80px;
+	}
+}
+
 
 .stocket .medium-box {
 	padding: 10px;
+	cursor: pointer;
 }
 
 .stocket .medium-box a{
     text-decoration: none;
 }
+
+.stocket .medium-box li{
+    line-height: 22px;
+}
+
 
 .stocket .large-box {
 	padding: 10px;
@@ -69,81 +96,124 @@
 }
 
 
-@media (min-width: 2000px){
+@media (min-width: 1280px){
 	.stocket .medium-box {
-		height: 13.23vw;
+		height: 175px;
 	}
 	.stocket .large-box {
-		height: 28.85vw;
+		height: 401px;
 	}
 }
-@media (min-width: 1900px) and (max-width: 2000px){
+@media (min-width: 700px) and (max-width: 1280px){
 	.stocket .medium-box {
-		height: 13.1vw;
+		min-height: 15.00vw;
 	}
 	.stocket .large-box {
-		height: 28.8vw;
-	}
-}
-@media (min-width: 1800px) and (max-width: 1900px){
-	.stocket .medium-box {
-		height: 12.95vw;
-	}
-	.stocket .large-box {
-		height: 28.65vw;
+		min-height: 27.70vw;
 	}
 }
 
-@media (min-width: 1700px) and (max-width: 1800px){
-	.stocket .medium-box {
-		height: 12.80vw;
-	}
-	.stocket .large-box {
-		height: 28.50vw;
-	}
-}
-@media (min-width: 1600px) and (max-width: 1700px){
-	.stocket .medium-box {
-		height: 12.65vw;
-	}
-	.stocket .large-box {
-		height: 28.35vw;
-	}
+.nav a, .site-name {
+    font-weight: 600;
 }
 
-@media (min-width: 1500px) and (max-width: 1600px){
-	.stocket .medium-box {
-		height: 12.5vw;
-	}
-	.stocket .large-box {
-		height: 28.2vw;
-	}
+.stocket .button {
+	color: #000000;
 }
 
-@media (min-width: 1400px) and (max-width: 1500px){
-	.stocket .medium-box {
-		height: 12.35vw;
-	}
-	.stocket .large-box {
-		height: 28.05vw;
-	}
+.stocket h1 {
+	font-size: 35px;
 }
-@media (min-width: 1300px) and (max-width: 1400px){
-	.stocket .medium-box {
-		height: 12.20vw;
-	}
-	.stocket .large-box {
-		height: 27.9vw;
-	}
+
+.stocket h2 {
+	font-size: 18px;
+	line-height: 30px;
 }
-@media (min-width: 1200px) and (max-width: 1300px){
-	.stocket .medium-box {
-		height: 11.80vw;
-	}
-	.stocket .large-box {
-		height: 27.5vw;
-	}
+
+.stocket h3 {
+	font-size: 16px;
 }
+.aui #footer {
+    border-top: 5px solid #c40064;
+}
+
+.aui body {
+    font-family: "Stockholm Type","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* @media (min-width: 2000px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 13.23vw; */
+/* 		height: 11.9vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.85vw; */
+/* 		height: 26.15vw; */
+/* 	} */
+/* } */
+/* @media (min-width: 1900px) and (max-width: 2000px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 13.1vw; */
+/* 		height: 11.75vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.8vw; */
+/* 		height: 26.10vw; */
+/* 	} */
+/* } */
+/* @media (min-width: 1800px) and (max-width: 1900px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 12.95vw; */
+/* 		height: 11.60vw; */
+/* 	} */
+/* 	.stocket .large-box {	 */
+/* 		height: 28.65vw; */
+/* 		height: 25.95vw; */
+/* 	} */
+/* } */
+
+/* @media (min-width: 1700px) and (max-width: 1800px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 12.80vw; */
+/* 		height: 11.45vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.50vw; */
+/* 		height: 25.80vw; */
+/* 	} */
+/* } */
+/* @media (min-width: 1600px) and (max-width: 1700px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 12.65vw; */
+/* 		height: 11.30vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.35vw; */
+/* 		height: 24.95vw; */
+/* 	} */
+/* } */
+
+/* @media (min-width: 1500px) and (max-width: 1600px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 12.5vw; */
+/* 		height: 11.15vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.2vw; */
+/* 		height: 25.40vw;		 */
+/* 	} */
+/* } */
+
+/* @media (min-width: 1400px) and (max-width: 1500px){ */
+/* 	.stocket .medium-box { */
+/* 		height: 12.35vw; */
+/* 		height: 11vw; */
+/* 	} */
+/* 	.stocket .large-box { */
+/* 		height: 28.05vw; */
+/* 		height: 25.25vw; */
+/* 	} */
+/* } */
 
 /*
 .nav-main li.sel a {
