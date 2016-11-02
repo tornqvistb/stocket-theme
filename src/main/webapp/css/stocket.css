@@ -1,0 +1,98 @@
+.stocket {
+	max-width: 1280px;
+	margin: 0 auto; 
+}
+
+@media (min-width: 1280px){
+	.stocket {
+		/*margin-left: 100px;
+		margin-right: 100px;*/
+		margin-top: 10px;		
+	}
+	#heading {
+		max-width: 1280px;
+		margin: 0 auto; 
+		margin-top: 20px;			
+	}
+	.aui .navbar .nav {
+		margin-left: 80px;
+	}
+}
+
+
+.stocket .medium-box {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.stocket .medium-box a{
+    text-decoration: none;
+}
+
+.stocket .medium-box li{
+    line-height: 22px;
+}
+
+
+.stocket .large-box {
+	padding: 10px;
+}
+
+.stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
+	background: #dd4a2c;
+	color: #ffffff;
+}
+
+.stocket .dark-pink-box, .dark-pink-box a, .dark-pink-box a:hover  {
+	background: #c40064;
+	color: #ffffff;
+}
+
+.stocket .light-orange-box, .light-orange-box a, .light-orange-box a:hover {
+	background: #ffd7d2;
+	color: #dd4a2c;
+}
+
+.stocket .light-pink-box, .light-pink-box a, .light-pink-box a:hover {
+	background: #fedeed;
+	color: #c40064;
+}
+
+
+@media (min-width: 1280px){
+	.stocket .medium-box {
+		height: 175px;
+	}
+	.stocket .large-box {
+		height: 401px;
+	}
+}
+@media (min-width: 700px) and (max-width: 1280px){
+	.stocket .medium-box {
+		min-height: 15.00vw;
+	}
+	.stocket .large-box {
+		min-height: 27.70vw;
+	}
+}
+
+.nav a, .site-name {
+    font-weight: 600;
+}
+
+.stocket .button {
+	color: #000000;
+}
+
+.stocket h1 {
+	font-size: 35px;
+}
+
+.stocket h2 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.stocket h3 {
+	font-size: 16px;
+}
