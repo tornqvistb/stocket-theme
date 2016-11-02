@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="/stocket-theme/css/liferay_override.css">
 	<link rel="stylesheet" type="text/css" href="/stocket-theme/css/stocket.css">
 	<script src="/stocket-theme/js/jquery-1.8.2.js"></script>
-	<script src="/stocket-theme/js/jquery.flexslider-min.js"></s
+	<script src="/stocket-theme/js/jquery.flexslider-min.js"></script>
 	<script src="/stocket-theme/js/init-js-functions.js"></script>
 </head>
 
