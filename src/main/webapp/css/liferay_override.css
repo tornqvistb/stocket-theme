@@ -1,7 +1,14 @@
 /* ---------- Logo ---------- */
 .custom-logo img {
 	padding-right: 63px;
-	border-right: 1px solid #333;
+	/*border-right: 1px solid #333;*/
+}
+
+@media (max-width: 979px) {
+	.aui #heading .site-title img {
+	    width: 150px;
+	    margin-bottom: 10px;
+	}
 }
 /* ---------- Header ---------- */
 /* backgrou8nd-color #f5f3ee */ 
@@ -15,6 +22,7 @@
 }
 .aui #navigation .nav li {
     line-height: 40px;
+    font-size: medium;
 }
 
 .aui #navigation .nav li.active>a {
@@ -64,4 +72,23 @@
 .aui .portlet-borderless-bar {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	
+}
+
+.aui input, .aui button, .aui select, .aui textarea {
+    font-family: "Stockholm Type","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav a, .site-name {
+    font-weight: 600;
+}
+
+.lfr-nav-item span {
+	font-size: 16px;
+}
+
+.subscribe, .comments, .taglib-social-bookmarks, .taglib-ratings, .stats, .taglib-flags, .taglib-rss, .entry-navigation, .entry-author, .entry-categories, .entry-tags {
+	display: none;
+}
+#blogsCommentsPanelContainer {
+	display: none;
 }

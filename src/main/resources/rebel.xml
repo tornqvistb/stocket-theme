@@ -13,11 +13,6 @@
 			</dir>
 		</link>
 		<link target="/">
-			<dir name="C:/Projekt/GitHub/stocket-theme/target/m2e-liferay/theme-resources">
-				<exclude name="/"/>
-			</dir>
-		</link>
-		<link target="/">
 			<dir name="C:/Projekt/GitHub/stocket-theme/src/main/webapp">
 			</dir>
 		</link>

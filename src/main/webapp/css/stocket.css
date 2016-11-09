@@ -14,15 +14,48 @@
 		margin: 0 auto; 
 		margin-top: 20px;			
 	}
-	.aui .navbar .nav {
-		margin-left: 80px;
+	.aui .nav-collapse.collapse {
+    max-width: 1280px;
+    margin: 0 auto;
 	}
 }
 
+.stocket .button {
+	color: #000000;
+}
+
+.stocket h1 {
+	font-size: 35px;
+}
+
+@media (max-width: 979px) {
+	.stocket h1 {
+		font-size: 26px;
+	}
+}
+
+.stocket h2 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.stocket h3 {
+	font-size: 16px;
+}
+.stocket .flex-prev {
+	padding-top: 5px
+}
+.stocket .flex-next {
+	padding-top: 5px
+}
 
 .stocket .medium-box {
 	padding: 10px;
 	cursor: pointer;
+}
+
+.stocket .medium-box p{
+	font-size: 15px;
 }
 
 .stocket .medium-box a{
@@ -31,11 +64,16 @@
 
 .stocket .medium-box li{
     line-height: 22px;
+    font-size: 15px;
 }
 
 
 .stocket .large-box {
 	padding: 10px;
+}
+
+.stocket .large-box p{
+	font-size: 18px;
 }
 
 .stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
@@ -58,13 +96,49 @@
 	color: #c40064;
 }
 
+.stocket .content-header .button {
+	background: #ffd7d2;
+	color: #dd4a2c;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.stocket .content-header .primary-button {
+	background: #dd4a2c;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.stocket .form-general {
+	background : #f5f3ee;
+}
+.stocket .info-box {
+	background : #f5f3ee;
+} 
+
+.stocket .info-message {
+    background: #f1e6fc;
+}
+
+.stocket .confirmation-message {
+    background: #d5f7f4;
+}
+
+.stocket .error-message {
+    background: #fedeed;
+}
 
 @media (min-width: 1280px){
 	.stocket .medium-box {
-		height: 175px;
+		height: 189px;
 	}
 	.stocket .large-box {
-		height: 401px;
+		height: 429px;
 	}
 }
 @media (min-width: 700px) and (max-width: 1280px){
@@ -76,29 +150,5 @@
 	}
 }
 
-.nav a, .site-name {
-    font-weight: 600;
-}
 
-.stocket .button {
-	color: #000000;
-}
 
-.stocket h1 {
-	font-size: 35px;
-}
-
-.stocket h2 {
-	font-size: 18px;
-	line-height: 30px;
-}
-
-.stocket h3 {
-	font-size: 16px;
-}
-.stocket .flex-prev {
-	padding-top: 5px
-}
-.stocket .flex-next {
-	padding-top: 5px
-}
