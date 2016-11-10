@@ -35,7 +35,7 @@
 }
 
 .stocket h2 {
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 30px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .stocket .medium-box p{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .stocket .medium-box a{
@@ -64,16 +64,17 @@
 
 .stocket .medium-box li{
     line-height: 22px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 
 .stocket .large-box {
-	padding: 10px;
+	padding: 20px;
 }
 
 .stocket .large-box p{
-	font-size: 18px;
+	font-size: 22px;
+    line-height: 28px;
 }
 
 .stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
@@ -138,7 +139,7 @@
 		height: 189px;
 	}
 	.stocket .large-box {
-		height: 429px;
+		height: 409px;
 	}
 }
 @media (min-width: 700px) and (max-width: 1280px){
