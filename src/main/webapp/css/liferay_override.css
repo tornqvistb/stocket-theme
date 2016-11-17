@@ -93,3 +93,20 @@
 #blogsCommentsPanelContainer {
 	display: none;
 }
+
+
+.dockbar-user-notifications {
+	display: none !important;
+}
+
+.user-avatar .icon-caret-down {
+	display: none !important;
+}
+
+.user-avatar .dropdown-menu {
+	display: none !important;
+}
+
+.user-avatar-link .icon-caret-down {
+	display: none !important;
+}
