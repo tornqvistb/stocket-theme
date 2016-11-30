@@ -3,6 +3,9 @@ $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide"
   });
+  $('.flexslider').flexslider({
+	  touch: $('.flexslider li').length > 1
+  });
 });
 
 $(window).load(function() {

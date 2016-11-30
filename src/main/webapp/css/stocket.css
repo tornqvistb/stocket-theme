@@ -178,6 +178,10 @@
 		width: auto;
 	}	
 }
-
+@media (min-width: 769px) {
+	#mobile-request-link-area {
+		display: none;
+	}
+} 
 
 

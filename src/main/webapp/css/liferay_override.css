@@ -110,3 +110,7 @@
 .user-avatar-link .icon-caret-down {
 	display: none !important;
 }
+
+.btn-navbar .icon-pencil {
+	display: none !important;
+}
