@@ -9,7 +9,7 @@ $(window).load(function() {
 });
 
 $(window).load(function() {
-	$(".medium-box").click(function(){
+	$(".page-link").click(function(){
 	    window.location = $(this).find("a:first").attr("href");	    
 	    return false;
 	});
