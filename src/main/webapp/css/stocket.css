@@ -159,8 +159,12 @@
 		height: 208px;
 	}
 	.stocket .slider-box .slider-image {
-		height: 200px;
+		max-height: 200px;
+		height: auto;
+		max-width: 100%;
 		width: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}	
 }
 @media (min-width: 700px) and (max-width: 1280px){
@@ -175,7 +179,11 @@
 	}
 	.stocket .slider-box .slider-image {
 		max-height: 15.00vw;
+		height: auto;
+		max-width: 100%;
 		width: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}	
 }
 @media (min-width: 769px) {
