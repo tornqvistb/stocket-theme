@@ -72,15 +72,6 @@
 	padding: 20px;
 }
 
-.stocket .large-box p{
-	font-size: 22px;
-    line-height: 28px;
-}
-
-.stocket .large-box li{
-    font-size: 22px;
-}
-
 .stocket .dark-orange-box, .dark-orange-box a, .dark-orange-box a:hover {
 	background: #dd4a2c;
 	color: #ffffff;
@@ -146,15 +137,24 @@
 }
 
 @media (min-width: 1280px){
+	.stocket .large-box p{
+		font-size: 22px;
+	    line-height: 28px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 22px;
+	}
 	.stocket .medium-box {
-		height: 189px;
+		min-height: 189px;
 	}
 	.stocket .large-box {
-		height: 409px;
+		min-height: 409px;
 	}
 	.stocket .extend-vertically {
    	 	height:auto;
-  }
+   	 
+  	}
 	.stocket .slider-box {
 		height: 208px;
 	}
@@ -168,6 +168,13 @@
 	}	
 }
 @media (min-width: 700px) and (max-width: 1280px){
+	.stocket .large-box p{
+		font-size: 20px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 20px;
+	}
 	.stocket .medium-box {
 		min-height: 15.00vw;
 	}
@@ -185,6 +192,16 @@
 		margin-left: auto;
 		margin-right: auto;
 	}	
+}
+
+@media (max-width: 700px){
+	.stocket .large-box p{
+		font-size: 18px;
+	}
+	
+	.stocket .large-box li{
+	    font-size: 18px;
+	}
 }
 @media (min-width: 769px) {
 	#mobile-request-link-area {
