@@ -90,5 +90,7 @@
 	<properties>
 		<liferay.theme.parent>classic</liferay.theme.parent>
 		<liferay.theme.type>vm</liferay.theme.type>
+		<liferay.maven.plugin.version>6.2.2</liferay.maven.plugin.version>
+		<liferay.version>6.2.2</liferay.version>		
 	</properties>
 </project>
