@@ -5,6 +5,17 @@
 	<groupId>se.arctisys.liferay.plugins</groupId>
 	<artifactId>stocket-theme</artifactId>
 	<packaging>war</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<jdk.version>1.7</jdk.version>
+		<liferay.maven.plugin.version>6.2.1</liferay.maven.plugin.version>
+		<liferay.version>6.2.1</liferay.version>		
+		<liferay.theme.parent>classic</liferay.theme.parent>
+		<liferay.theme.type>vm</liferay.theme.type>
+	</properties>
+		
 	<name>stocket-theme Theme</name>
 	<version>6.2.3</version>
 	<build>
@@ -87,8 +98,4 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-	<properties>
-		<liferay.theme.parent>classic</liferay.theme.parent>
-		<liferay.theme.type>vm</liferay.theme.type>
-	</properties>
 </project>
